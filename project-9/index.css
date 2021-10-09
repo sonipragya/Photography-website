@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+    margin: 0;
+    background: #eee;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+        -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+#main-text {
+    padding: 100px 30px;
+    display: flex;
+    height: 50vh;
+    flex: 0 1 40vw;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#inner-text {
+    padding-left: 50px;
+}
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: firebrick;
+}
+
+h2 {
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    color: rgb(116, 56, 103);
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+
+
+
+#landing {
+    background: #fff;
+
+}
+
+
+.header {
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 20px;
+    align-items: center;
+    text-decoration: none;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 50px 50px;
+    color: #fff;
+    font-weight:400;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgba(120, 133, 126, 0.589);
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+#landing-image {
+    background-image: url("imag/33e41ee463a01c7bdbe39da0610e39d9.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex: 0 1 60vw;
+    width: 450px;
+}
+#landing-image:hover{
+    filter:invert(20%);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+.header {
+    justify-content: center;
+    text-align: center;
+    background-color: firebrick;
+    
+}
+
+.header h2 {
+    border-left: dotted 3px #000;
+    border-right: dotted 3px #000;
+    display: inline-block;
+    color: #fff;
+
+}
+
+.caption {
+    text-align: center;
+    padding: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 60px;
+}
+footer h3{
+    letter-spacing: 2px;
+
+}
+
+
+figure button {
+    background-color: crimson;
+    padding: 10px 10px;
+    border-radius: 50px 50px;
+}
+figure button a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+button a:hover {
+    color: #fff;
+    padding: 3px 6px ;
+}
+footer p {
+    color: #000;
+    font-size: 16px;
+    
+}
+
+.footer{
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    
+}
+
+@media (min-width: 500px) {
+    #landing {
+        display: flex;
+        height: 100vh;
+
+    }
+    #landing-image {
+        height: 100vh;
+    }
+    
+}
+@media (min-width:330px) {
+    #landing{
+        display:flex;
+        height: 100vh;
+    }
+    #langing-image{
+        display:table-column;
+        background-attachment: fixed;
+
+    }
+}
+
+/* Screen Sizes 700px and Up */
+@media (min-width: 700px) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+    
+}
